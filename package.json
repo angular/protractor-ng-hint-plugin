@@ -1,0 +1,38 @@
+{
+  "name": "protractor-ng-hint-plugin",
+  "version": "0.1.0",
+  "description": "Adds run-time hinting to AngularJS projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/httpster/bin/httpster -d testapp/ -p `node -p 'process.env.HTTP_PORT || require(\"./spec/environment\").webServerDefaultPort'`",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular/protractor-ng-hint-plugin"
+  },
+  "keywords": [
+    "angular",
+    "test",
+    "testing",
+    "webdriver",
+    "webdriverjs",
+    "selenium",
+    "protractor",
+    "protractor-plugin"
+  ],
+  "author": "Sammy Jelin (sjelin@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angular/protractor-ng-hint-plugin/issues"
+  },
+  "homepage": "https://github.com/angular/protractor-ng-hint-plugin",
+  "devDependencies": {
+    "httpster": "^1.0.1",
+    "protractor": "^2.5.1"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "q": "^1.4.1"
+  }
+}
