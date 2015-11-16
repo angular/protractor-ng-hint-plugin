@@ -8,7 +8,7 @@ You enable this plugin in your config file:
  ```js
 exports.config = {
   plugins: [{
-    path: 'node_modules/protractor/plugins/ngHint',
+    package: 'protractor-ng-hint-plugin',
 
     asTests: {Boolean},
     excludeURLs: {(String|RegExp)[]}

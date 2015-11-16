@@ -1,6 +1,6 @@
 {
   "name": "protractor-ng-hint-plugin",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Adds run-time hinting to AngularJS projects",
   "main": "index.js",
   "scripts": {
